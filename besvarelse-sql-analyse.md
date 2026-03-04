@@ -2,11 +2,13 @@
 
 ## Oppgave 1: Grunnleggende Spørringer
 1.  `SELECT * FROM Vare;`
-2.  `SELECT VNr, Betegnelse FROM Vare;`
-3.  `SELECT DISTINCT KatNr FROM Vare;`
-4.  `SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;`
+   Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
+* betyr at alle kolonner i tabellen inkluderes i resultatet.
+3.  `SELECT VNr, Betegnelse FROM Vare;`
+4.  `SELECT DISTINCT KatNr FROM Vare;`
+5.  `SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;`
 
-1.  **Forklaring:** Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
+ **Forklaring:** Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
 * betyr at alle kolonner i tabellen inkluderes i resultatet.
 
 3.  **Forklaring:** ...
