@@ -1,10 +1,19 @@
 # Besvarelse: SQL-Analyse
 
 ## Oppgave 1: Grunnleggende Spørringer
-1.  `SELECT * FROM Vare;`
-3.  `SELECT VNr, Betegnelse FROM Vare;`
-4.  `SELECT DISTINCT KatNr FROM Vare;`
-5.  `SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;`
+  ```sql
+  SELECT * FROM Vare;
+  ```
+`Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
+Symbolet * betyr at alle kolonner i tabellen inkluderes i resultatet.`
+
+```sql
+SELECT VNr, Betegnelse FROM Va
+```
+
+re;`
+5.  `SELECT DISTINCT KatNr FROM Vare;`
+6.  `SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;`
 
 1.  **Forklaring:** ...
 `Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
