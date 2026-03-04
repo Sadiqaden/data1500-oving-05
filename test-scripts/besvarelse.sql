@@ -1,5 +1,6 @@
-```
+```sql
 SELECT * FROM Vare;
 ```
+
 
 
