@@ -6,13 +6,15 @@
 3.  `SELECT DISTINCT KatNr FROM Vare;`
 4.  `SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;`
 
-1.  **Forklaring:** ...
-
-2.  **Forklaring:** ...
+1.  **Forklaring:**
+  Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
+* betyr at alle kolonner i tabellen inkluderes i resultatet.
 
 3.  **Forklaring:** ...
 
 4.  **Forklaring:** ...
+
+5.  **Forklaring:** ...
 
 ## Oppgave 2: WHERE-klausulen
 1.  `SELECT * FROM Vare WHERE Pris > 500;`
