@@ -6,8 +6,9 @@
 4.  `SELECT DISTINCT KatNr FROM Vare;`
 5.  `SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;`
 
-1.  **Forklaring:** ... `md` Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
-Symbolet * betyr at alle kolonner i tabellen inkluderes i resultatet. `md`
+1.  **Forklaring:** ...
+`Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
+Symbolet * betyr at alle kolonner i tabellen inkluderes i resultatet.`
 
 
 3.  **Forklaring:** ...
