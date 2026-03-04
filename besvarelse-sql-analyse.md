@@ -8,23 +8,22 @@
 Symbolet * betyr at alle kolonner i tabellen inkluderes i resultatet.`
 
 ```sql
-SELECT VNr, Betegnelse FROM Va
+SELECT VNr, Betegnelse FROM Vare
 ```
+`Denne spørringen henter kun kolonnene VNr (varenummer) og Betegnelse fra tabellen Vare.
+Andre kolonner i tabellen blir ikke vist i resultatet.`
 
-re;`
-5.  `SELECT DISTINCT KatNr FROM Vare;`
-6.  `SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;`
+```sql
+SELECT DISTINCT KatNr FROM Vare;
+```
+`Denne spørringen henter alle kategori-numre (KatNr) fra tabellen Vare, men bruker DISTINCT for å fjerne duplikater.
+Resultatet viser derfor kun unike kategori-numre som finnes i tabellen.`
 
-1.  **Forklaring:** ...
-`Denne spørringen henter alle kolonner og alle rader fra tabellen Vare.
-Symbolet * betyr at alle kolonner i tabellen inkluderes i resultatet.`
-
-
-3.  **Forklaring:** ...
-
-4.  **Forklaring:** ...
-
-5.  **Forklaring:** ...
+```sql
+SELECT Fornavn, Etternavn, Stilling AS Jobbtittel FROM Ansatt;
+```
+`Denne spørringen henter kolonnene Fornavn, Etternavn og Stilling fra tabellen Ansatt.
+AS Jobbtittel gir kolonnen Stilling et nytt navn i resultatet, slik at den vises som Jobbtittel.`
 
 ## Oppgave 2: WHERE-klausulen
 1.  `SELECT * FROM Vare WHERE Pris > 500;`
